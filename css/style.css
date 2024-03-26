@@ -1,0 +1,1219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    z-index: 9999;
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+.barsStaggered{
+    font-size: 20px;
+}
+
+.roundedDiv{
+    width: 65px;
+    height: 65px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.roundedDiv:hover{
+    border: 1px solid rgb(114, 58, 204);
+}
+
+nav img{
+    margin-left: 25px;
+}
+
+.letsTalk{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-color: transparent;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 800px;
+}
+
+::selection{
+    background-color: #08A045;
+}
+
+.containerDiv{
+    display: flex;
+}
+
+.firstDivPage{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.firstContainer{
+    width: 600px;
+}
+
+.HeaderText{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    margin-top: 170px;
+    font-size: 60px;
+    margin-left: 80px;
+}
+
+.seeOurWorks{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.rightArrow{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.seeOurWorks{
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 90px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.seeOurWorks:hover{
+    background-color: lightgray;
+}
+
+.firstDivPage img{
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.followUs{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: rotate(180deg);
+    color: black;
+    writing-mode: vertical-lr;
+}
+
+.firstDivPage a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 90px;
+    line-height: 50px;
+}
+
+.thirdContainer p{
+    cursor: pointer;
+}
+
+.thirdContainer{
+    margin-top: 120px;
+    position: fixed;
+    margin-left: 1300px;
+}
+
+.thirdContainer a:hover{
+    color: rgb(72, 72, 180);
+    cursor: pointer;
+}
+
+.fbLink{
+    margin-left: 90px;
+}
+
+.subText{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+}
+
+.subText a{
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.secondDivPage{
+    width: 100%;
+    margin-top: 40px;
+    height: 80vh;
+    background: linear-gradient(to right, rgb(31, 31, 201), rgb(151, 49, 151));
+}
+
+.theWebPeople{
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.roundedDiv2{
+    width: 50px;
+    margin-top: -150px;
+    margin-left: 150px;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.whoAreWe{
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -50px;
+    margin-left: 150px;
+}
+
+.secondDivPage{
+    display: flex;
+}
+
+.sideTwo{
+    margin-left: 150px;
+    width: 660px;
+    margin-top: 70px;
+}
+
+.madeWith{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.heartGreen{
+    color: rgb(74, 241, 74);
+}
+
+.textSecondDivPage{
+    color: white;
+    margin-top: 30px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.aboutUsAnchorTag{
+    text-decoration: none;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.aboutUsAnchorTag span{
+    margin-right: 10px;
+}
+
+.iframeVideo{
+    display: block;
+    margin-top: -500px;
+    margin-left: 0px;
+
+    width: 100%;
+    height: 600px;
+    display: none;
+    position: absolute;
+
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.closeButton{
+    margin-left: 1300px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.iframeVideo2{
+    margin-left: 120px;
+}
+
+.textOur,
+.selectedTextBlue{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: 500;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.selectedTextBlue{
+    color: rgb(61, 72, 168);
+    margin-top: -4px;
+}
+
+.LearnHoHub,
+.lekhaniDiv,
+.pixelSoftek,
+.eventEngage,
+.contesTify,
+.Appstle,
+.Druvstart,
+.Airoware,
+.tesla{
+    background-image: url('https://thewebpeople.in/wp-content/uploads/Learno-Hub-Hero-1920x792.jpg');
+    width: 600px;
+    height: 240px;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 40px;
+    box-shadow: -21px -40px 91px 7px rgba(0,0,0,0.4);
+    margin-left: 70px;
+    margin-top: 50px;
+    transition-duration: 2s;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px -150px 36px -28px inset;
+}
+
+.LearnHoHub:hover,
+.pixelSoftek:hover{
+    box-shadow: -21px -40px 91px 7px rgba(0,0,0,0.7);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -300px 36px -28px inset;
+}
+
+.LearnHoHub a{
+    margin-left: 60px;
+}
+
+.LearnHoHub span{
+    font-size: 25px;
+    top: 50;
+    display: none;
+    bottom: 0;
+}
+
+.textLearnHoHub,
+.ApplicationSentence{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 25px;  
+}
+
+.ApplicationSentence{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.SidesTwoByTwo{
+    display: flex;
+}
+
+.lekhaniDiv{
+    margin-left: 10px;
+    box-shadow: -21px -40px 91px 7px rgba(0,0,0,0.4);
+    background-image: url('https://thewebpeople.in/wp-content/uploads/./Featured-image-Lekhani-e1686314396385-1920x843.png');
+    transition-duration: 2s;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px -130px 36px -28px inset;
+}
+
+.lekhaniDiv:hover,
+.eventEngage:hover,
+.Appstle:hover,
+.contesTify:hover{
+    box-shadow: -21px -40px 91px 7px rgba(0,0,0,0.7);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -300px 36px -28px inset;
+}
+
+.lekhaniDiv a{
+    margin-top: 100px;
+    font-size: 25px;
+    display: none;
+    margin-left: 50px;
+}
+
+.lekhaniText{
+    margin-top: 90px;
+}
+
+.pixelSoftek{
+    background-image: url('https://thewebpeople.in/wp-content/uploads/PixelSoftek-the-web-people-3-1920x787.png');
+}
+
+.expansiveButton2{
+    font-size: 25px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.nextTwo2{
+    display: flex;
+}
+
+.eventEngage,
+.Appstle,
+.Airoware{
+    margin-left: 10px;
+    background-image: url('https://thewebpeople.in/wp-content/uploads/Event-Engage-the-web-people-1920x787.png ');
+}
+
+.contesTify{
+    background-image: url('https://thewebpeople.in/wp-content/uploads/Contensify-The-Web-People-1920x792.png');
+}
+
+.Appstle{
+    background-image: url('https://thewebpeople.in/wp-content/uploads/Appstle-Featured-Image-1920x784.png');
+}
+
+.Druvstart{
+    background-image: url('https://thewebpeople.in/wp-content/uploads/Druvstar-Featured-Image-1-1920x861.jpg');
+}
+
+.Airoware{
+    background-image: url('https://thewebpeople.in/wp-content/uploads/Airowire-The-Web-People-5-1920x1280.jpg');
+}
+
+.expansiveButton3,
+.expansiveButton4,
+.expansiveButton5,
+.expansiveButton6,
+.expansiveButton7,
+.expansiveButton8{
+    font-size: 25px;
+    position: absolute;
+    margin-left: 50px;
+    display: none;
+}
+
+.eventEngagetext{
+    padding-top: 30px;
+}
+
+.pixelSoftektext{
+    padding-top: 18px;
+}
+
+.Appstle .textLearnHoHub{
+    margin-top: 90px;
+}
+
+.Airoware .textLearnHoHub{
+    margin-top: 90px;
+}
+
+.tesla{
+    background-image: url('https://thewebpeople.in/wp-content/uploads/Tesla-Education-The-Web-People-7-1920x853.jpg');
+}
+
+.tesla .textLearnHoHub{
+    margin-top: 90px;
+}
+.explore{
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-left: 100px;
+    padding-top: 50px;
+    transition-duration: 8s;
+}
+
+.tesla{
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.explore:hover{
+    background: linear-gradient(to right, #c22727, #0011ff,#cf23cf, #ff009d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.Textour{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-left: 80px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.servicesText{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-left: 80px;
+    font-size: 40px;
+    color: rgb(56, 56, 201);
+}
+
+.imgBouncerWebsite{
+   margin-left: 90px;
+   margin-top: 30px;
+}
+
+.onesider .website{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+.onesider .text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 25px;
+    margin-left: 80px;
+}
+
+.onesider{
+    width: 660px;
+}
+
+.division1,
+.divisionContinue{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.divisionContinue{
+    margin-top: 15px;
+}
+
+.onesider .textno1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.onesider hr{
+    margin-left: 85px;
+    width: 10px;
+    height: 3px;
+    border-radius: 3px;
+    border-color: transparent;
+    background-color: blue;
+}
+
+.textMono{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.learnMore{
+    margin-left: 100px;
+    margin-top: 35px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    font-style: normal;
+    background-color: transparent;
+    transition-duration: 1s;
+}
+
+.learnMore:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.twoSiders{
+    display: flex;
+}
+
+.packagedText,
+.servicesTextp{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+.packagedText{
+    margin-top: 50px;
+}
+
+.servicesTextp{
+    color: rgb(22, 22, 231);
+    margin-top: 0px;
+}
+
+.threeDivFlex{
+    display: flex;
+}
+
+.oneFlex1,
+.oneFlex11{
+    width: 410px;
+    margin-top: 25px;
+    height: 300px;
+    background-color: rgb(208, 248, 248);
+}
+
+.lockimg{
+    width: 110px;
+    height: 110px;
+    margin-top: -55px;
+    margin-left: 250px;
+}
+
+.webSecurityText{
+    font-size: 35px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+
+.oneFlex1 .text,
+.oneFlex11 .text{
+    font-weight: 400;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    width: 340px;
+    margin-left: 25px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.threeDivFlex{
+    margin-left: 80px;
+}
+
+.oneFlex11{
+    background-color: rgb(252, 214, 219);
+}
+
+.sixthPage .Sider .textParagraph,
+.sixthPage .Sider .blueParagraph{
+    font-size: 40px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 80px;
+    font-weight: 500;
+}
+
+.sixthPage .Sider .textParagraph{
+    margin-top: 100px;
+}
+
+.sixthPage .Sider .blueParagraph{
+    color: blue;
+}
+
+.textSubs{
+    margin-top: 16px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 80px;
+    width: 500px;
+    line-height: 20px;
+}
+
+.BookaCall{
+    width: 150px;
+    font-size: 15px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 80px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-style: normal;
+    color: white;
+    background-color: black;
+    border-color: transparent;
+    border-radius: 5px;
+    height: 50px;
+    transition-duration: 1s;
+}
+
+.sixthPage{
+    display: flex;
+}
+
+.BookaCall:hover{
+    background-color: rgb(58, 58, 243);
+}
+
+.secondSider .textParagraph,
+.thirdSider .textParagraph{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.secondSider{
+    margin-top: 80px;
+    margin-left: 125px;
+}
+
+.thirdSider{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.secondSider .textSubs,
+.thirdSider .textSubs{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-left: 0px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    width: 270px;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+.sevenPage{
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    background-color: rgb(0, 0, 49);
+}
+
+
+.paragaph4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.paragaph4 .textParagraph{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    width: 800px;
+    padding-top: 25px;
+}
+
+.buttonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.letsConnect{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border-color: transparent;
+}
+
+.siderFlexer .webPeople{
+    width: 150px;
+    height: 150px;
+}
+
+.siderFlexer .textParagraph{
+    font-size: 18px;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.siderFlexer a{
+    font-size: 18px;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+}
+
+.flexers{
+    display: flex;
+    margin-top: 50px;
+}
+
+.siderFlexer2 .contactUsText{
+    font-size: 23px;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;  
+    margin-bottom: 20px;
+}
+
+.siderFlexer2 .contactUsText:hover{
+    text-decoration: underline;
+}
+
+.siderFlexer{
+    margin-left: 40px;
+}
+
+.siderFlexer span{
+    font-size: 18px;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.siderFlexer a:hover{
+    text-decoration: underline;
+}
+
+.siderFlexer2 a{
+    font-size: 18px;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.siderFlexer2{
+    width: 250px;
+    margin-left: 150px;
+}
+
+.anotherOneSame{
+    margin-top: 50px;
+}
+
+.anchortagno2{
+    line-height: 25px;
+}
+
+.siderFlexer3{
+    display: block;
+    margin-left: 150px;
+    line-height: 60px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.siderFlexer3 a{
+    text-decoration: none;
+}
+
+.facbook{
+    color: #0d823a;
+}
+
+.facbook:hover,
+.facebook:hover{
+    color:#0d823a;
+}
+
+.facbook{
+    font-size: 16px;
+}
+
+.facebook{
+    color: white;
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+nav{
+    display: none;
+}
+
+.flex{
+    display: flex;
+    padding-top: 20px;
+}
+
+.zeropage .closeButton2{
+    color: white;
+    margin-left: 25px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.homediv{
+    margin-left: 50px;
+}
+
+.no1,
+.nocon{
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.homedive{
+    margin-left: 50px;
+    margin-top: -13px;
+}
+
+.homediv .home{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    cursor: pointer;
+    color: rgb(87, 87, 255);
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.secondflex{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.their{
+    margin-top: 30px;
+}
+
+.textPa{
+    color: rgb(156, 156, 156);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    width: 200px;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.flexxxx{
+    padding-top: 30px;
+    display: flex;
+}
+
+.face,
+.continueation{
+    color: white;
+    cursor: pointer;
+}
+
+.continueation{
+    margin-left: 45px;
+}
+
+.getPage{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.zeropage{
+    display: none;
+}
+
+.homme{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.zeropage{
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    position: fixed;
+    background-color: rgb(29, 29, 29);
+}
+
+nav{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        width: 375px;
+    }
+
+    nav img{
+        width: 200px;
+        margin-left: 2px;
+    }
+
+
+    .letsTalk{
+        margin-left: 10px;
+    }
+
+    .firstContainer{
+        display: block;
+    }
+
+    .HeaderText{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .secondContainer{
+        margin-top: 300px;
+        margin-left: -600px;
+    }
+
+    .imgWebPeoplE{
+        width: 400px;
+    }
+
+    .secondDivPage{
+        display: block;
+        height: 800px;
+    }
+
+    .secondDivPage .sideOne{
+        margin-left: -55px;
+        margin-top: 150px;
+    }
+    
+    .secondDivPage .sideTwo{
+        margin-left: 25px;
+    }
+
+    .madeWith{
+        font-size: 13px;
+    }
+
+    .HeaderText{
+        width: 250px;
+    }
+
+    .textSecondDivPage{
+        font-size: 20px;
+        width: 300px;
+        line-height: 30px
+    }
+
+    .textOur,
+    .selectedTextBlue{
+        font-size: 30px;
+    }
+
+    .thirdDivPage{
+        display: block;
+    }
+
+    .SidesTwoByTwo{
+        display: block;
+    }
+
+    .nextTwo2{
+        display: block;
+    }
+
+    .LearnHoHub,
+    .lekhaniDiv,
+    .pixelSoftek,
+    .eventEngage,
+    .contesTify,
+    .Appstle,
+    .Druvstart,
+    .Airoware,
+    .tesla{
+        width: 350px;
+        background-size: cover;
+        margin-left: 20px;
+        height: 200px;
+    }
+
+    .textLearnHoHub{
+        margin-top: 0px;
+    }
+    
+    .lekhaniText{
+        margin-top: 40px;
+    }
+
+    .Appstle .textLearnHoHub{
+        margin-top: 50px;
+    }
+
+    .textLearnHoHub{
+        font-size: 20px;
+    }
+
+    .twoSiders{
+        display: block;
+    }
+
+    .onesider{
+        margin-left: -70px;
+    }
+
+    .onesider .text{
+        width: 300px;
+    }
+
+    .threeDivFlex{
+        display: block;
+    }
+
+    .oneFlex1,
+    .oneFlex11,
+    .oneFlex111{
+        margin-left: -78px;
+        width: 370px;
+    }
+
+    .threeDivFlex .text{
+        margin-left: 10px;
+    }
+
+    .webSecurityText{
+        margin-left: 10px;
+    }
+
+    .sixthPage{
+        display: block;
+        margin-left: -60px;
+    }
+
+    .thirdSider{
+        margin-left: 125px;
+    }
+
+    .sevenPage{
+        height: 1200px;
+    }
+
+    .flexers{
+        display: block;
+    }
+
+    .siderFlexer2{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .siderFlexer3{
+        margin-left: 0px;
+    }
+
+    .therihook{
+        margin-left: 50px;
+    }
+    .wrapper{
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .Sider .textSubs{
+        width: 300px;
+    }
+
+    .whoAreWe{
+        margin-left: 220px;
+    }
+
+    .secondDivPage{
+        height: 1000px;
+    }
+
+    .sixthPage,
+    .fifthPage,
+    .fourthPage,
+    .thirdDivPage,
+    .secondDivPage,
+    .firstDivPage,
+    nav{
+        overflow-x: hidden;
+    }
+
+    .iframeVideo{
+        width: 375px;
+        height: 500px;
+    }
+
+    .iframeVideo2{
+        width: 360px;
+        height: 300px;
+        padding-top: 30px;
+        margin-left: 10px;
+    }
+
+    .closeButton{
+        margin-left: 350px;
+        padding-top: 20px;
+    }
+
+    .secondflex{
+        display: none;
+    }
+
+    .no1,
+    .nocon{
+        font-size: 10px;
+    }
+
+    .homedive{
+        margin-top: 30px;
+    }
+
+    .homediv .home,
+    .homme{
+        font-size: 14px;
+    }
+}
